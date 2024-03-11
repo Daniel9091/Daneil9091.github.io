@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laboratorio 1</title>
+
+    <script>
+        function cambiar_contenido() {
+            var n_mensaje = document.getElementById("nuevo_mensaje").value;
+            document.getElementById("texto").textContent = n_mensaje;
+        }
+        
+    </script>
+
+
+</head>
+<body>
+
+    <p>Daniel Guzman</p>
+    <p>Ciencias de la computacion</p>
+    <p>4 año</p>
+    <a href="https://github.com/Daniel9091/Daniel9091.github.io.git">Link a repositorio de Github</a>
+    <p>Personal summary:</p>
+    <p>
+        Daniel, un romántico empedernido, 
+        se encontró con Colomba en una noche estrellada junto al mar. 
+        Cada momento juntos es un poema, cada sonrisa una canción. 
+        ¿Te unes a nuestra melodía de amor bajo el cielo colombiano?
+    </p>
+
+
+
+    <table>
+        <tr>
+            <th>Skills</th>
+            <th>Level</th>
+        </tr>
+        <tr>
+            <td>Python</td>
+            <td>Expert</td>
+        </tr>
+        <tr>
+            <td>JavaScript</td>
+            <td>Basic</td>
+        </tr>
+        <tr>
+            <td>HTML/CSS</td>
+            <td>Basic</td>
+        </tr>
+        <tr>
+            <td>Git</td>
+            <td>Advance</td>
+        </tr>
+        <tr>
+            <td>SQL</td>
+            <td>Expert</td>
+        </tr>
+        <tr>
+            <td>Ruby</td>
+            <td>Basic</td>
+        </tr>
+        <tr>
+            <td>English</td>
+            <td>Advance</td>
+        </tr>
+        <tr>
+            <td>Spanish</td>
+            <td>Native</td>
+        </tr>
+
+    </table>
+    <p id="texto">hola</p>
+    <button  onclick="cambiar_contenido()" >Cambiar texto</button>
+    <input type="text" id="nuevo_mensaje">
+    
+</body>
+</html>
