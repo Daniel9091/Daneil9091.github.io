@@ -1,0 +1,68 @@
+html {
+    font-family: "Times New Roman", sans-serif;
+}
+
+h1{
+    margin-bottom: 5px;
+    text-align: center;
+    color: orange;
+    font-family: "comic sans ms", cursive;
+
+}
+
+h2{
+    margin-bottom: 0px;
+    color: rgb(238, 204, 8);
+    text-align: center;
+    font-size: 25px;
+}
+
+
+
+.personal_info{
+    color: blue;
+    margin-top: 1px;
+    margin-bottom: 0px;
+    text-align: right; 
+}
+
+.formato_tab{
+    text-align: center;
+    margin-left: 46%;
+    border: yellowgreen solid;
+    background-color:rgb(6, 218, 246);
+
+}
+
+.columna_isquierda{
+    background-color: rgb(0, 136, 255);
+}
+.columna_derecha{
+    background-color: rgb(255, 0, 149);
+}
+
+#años{
+    font-style: italic;
+}
+
+#personal_text{
+    font-style: oblique;
+    color: green;
+    margin-bottom: 10px;
+    margin-top: 5px;   
+}
+
+#heder_isquierdo{
+    background-color: rgb(212, 255, 0);
+}
+
+#heder_derecho{
+    background-color: rgb(255, 225, 0);
+}
+
+#texto{
+    color: rgb(39, 188, 39);
+    font-style: oblique;
+    text-align: center;
+
+}

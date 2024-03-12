@@ -3,75 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Laboratorio 1</title>
-
-    <script>
-        function cambiar_contenido() {
-            var n_mensaje = document.getElementById("nuevo_mensaje").value;
-            document.getElementById("texto").textContent = n_mensaje;
-        }
-        
-    </script>
-
-
+    <title>Laboratory 1</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <p>Daniel Guzman</p>
-    <p>Ciencias de la computacion</p>
-    <p>4 año</p>
-    <a href="https://github.com/Daniel9091/Daniel9091.github.io.git">Link a repositorio de Github</a>
-    <p>Personal summary:</p>
-    <p>
-        Daniel, un romántico empedernido, 
-        se encontró con Colomba en una noche estrellada junto al mar. 
-        Cada momento juntos es un poema, cada sonrisa una canción. 
-        ¿Te unes a nuestra melodía de amor bajo el cielo colombiano?
+    <h1>Daniel Guzman</h1>
+    <p class = "personal_info">Ciencias de la computacion</p>
+    <p class = "personal_info" id = "años">4 year</p>
+    <a href="https://github.com/Daniel9091/Daniel9091.github.io.git">Link to github repository</a>
+    <h2>Personal summary:</h2>
+    <p id = "personal_text">
+        I am a passionate and creative individual with a strong inclination towards strategic thinking and problem-solving. 
+        My insatiable curiosity drives me to explore new fields and acquire diverse knowledge. 
+        With a proactive and results-oriented mindset, I enjoy collaborating in multidisciplinary teams to achieve ambitious goals. 
+        My ability to communicate effectively in various contexts allows me to inspire and motivate others towards the attainment 
+        of shared objectives.
     </p>
 
 
-
-    <table>
+    <table class = "formato_tab">
         <tr>
-            <th>Skills</th>
-            <th>Level</th>
+            <th id = "heder_isquierdo" >Skills</th>
+            <th id = "heder_derecho">Level</th>
         </tr>
         <tr>
-            <td>Python</td>
-            <td>Expert</td>
+            <td class = "columna_isquierda">Python</td>
+            <td class = "columna_derecha" >Expert</td>
         </tr>
         <tr>
-            <td>JavaScript</td>
-            <td>Basic</td>
+            <td class = "columna_isquierda">JavaScript</td>
+            <td class = "columna_derecha">Basic</td>
         </tr>
         <tr>
-            <td>HTML/CSS</td>
-            <td>Basic</td>
+            <td class = "columna_isquierda">HTML/CSS</td>
+            <td class = "columna_derecha">Basic</td>
         </tr>
         <tr>
-            <td>Git</td>
-            <td>Advance</td>
+            <td class = "columna_isquierda" >Git</td>
+            <td class = "columna_derecha" >Advance</td>
         </tr>
         <tr>
-            <td>SQL</td>
-            <td>Expert</td>
+            <td class = "columna_isquierda">SQL</td>
+            <td class = "columna_derecha" >Expert</td>
         </tr>
         <tr>
-            <td>Ruby</td>
-            <td>Basic</td>
+            <td class = "columna_isquierda">Ruby</td>
+            <td class = "columna_derecha" >Basic</td>
         </tr>
         <tr>
-            <td>English</td>
-            <td>Advance</td>
+            <td class = "columna_isquierda">English</td>
+            <td class = "columna_derecha" >Advance</td>
         </tr>
         <tr>
-            <td>Spanish</td>
-            <td>Native</td>
+            <td class = "columna_isquierda">Spanish</td>
+            <td class = "columna_derecha" >Native</td>
         </tr>
 
     </table>
-    <p id="texto">hola</p>
-    <button  onclick="cambiar_contenido()" >Cambiar texto</button>
+    <h2>Comment received:</h2>
+    <p id="texto">Your new comment will appear here</p>
+    <button onclick="cambiar_contenido()" >Blog comment</button>
     <input type="text" id="nuevo_mensaje">
     
 </body>

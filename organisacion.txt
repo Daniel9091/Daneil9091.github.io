@@ -1,0 +1,25 @@
+cambiar la fuente de toda la pagina
+ocupar las clases para 2 y tersera linea (info adicional) clases
+tabla cambiar fondo de titulos parte derecha y isquirda con clases
+editar la tabla de manera general para usar marco
+cargar inforamcion en github
+cambiar etiquetas para el texto
+cambiar lo que esta escrito en personal summary
+y en el texto de abajo (publique comentario)
+foramto del comentario
+
+
+
+ids y clases
+clases
+    personal info 
+    personal text
+    formato tab
+    heder
+    columna isquierda
+ids
+    años
+    heder isquierdrdo
+    heder derecho
+
+cambiar fuente
