@@ -5,22 +5,21 @@ html {
 h1{
     margin-bottom: 5px;
     text-align: center;
-    color: orange;
+    color: rgb(4, 11, 97);
     font-family: "comic sans ms", cursive;
 
 }
 
 h2{
     margin-bottom: 0px;
-    color: rgb(238, 204, 8);
+    color: rgb(52, 64, 129);
     text-align: center;
     font-size: 25px;
 }
 
 
-
 .personal_info{
-    color: blue;
+    color: rgb(150, 150, 150);
     margin-top: 1px;
     margin-bottom: 0px;
     text-align: right; 
@@ -28,17 +27,23 @@ h2{
 
 .formato_tab{
     text-align: center;
-    margin-left: 46%;
-    border: yellowgreen solid;
-    background-color:rgb(6, 218, 246);
-
+    border: rgb(6, 64, 82) solid;
 }
 
 .columna_isquierda{
-    background-color: rgb(0, 136, 255);
+    background-color:rgb(26, 143, 197);   
 }
 .columna_derecha{
-    background-color: rgb(255, 0, 149);
+    background-color: rgb(104, 188, 209);
+}
+
+.col{
+    border: 1px solid black;
+    padding: 8px;
+}
+
+.fila-superior{
+    background-color: lightgray;
 }
 
 #años{
@@ -47,22 +52,34 @@ h2{
 
 #personal_text{
     font-style: oblique;
-    color: green;
+    color: rgb(31, 143, 163);
     margin-bottom: 10px;
     margin-top: 5px;   
 }
 
 #heder_isquierdo{
-    background-color: rgb(212, 255, 0);
+    color: white;
+    background-color: rgb(17, 94, 129);
 }
 
 #heder_derecho{
-    background-color: rgb(255, 225, 0);
+     color:white;
+    background-color: rgb(72, 131, 146);
 }
 
 #texto{
-    color: rgb(39, 188, 39);
+    color: rgb(55, 105, 151);
     font-style: oblique;
     text-align: center;
 
 }
+
+.custom-alert {
+    display: none;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    max-width: 200px; 
+    z-index: 1000;
+}
+
